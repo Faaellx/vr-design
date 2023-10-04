@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+}
+
+div.logo {
+    width: 50vw;
+    
+
+}
+
+div.menu {
+    width: 50vw;
+    height: 140px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px; 
+    font-size: 20px;
+
+}
+
+div.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+}
+
+body {
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+}
+
+div.esquerda img {
+    padding-left: 160px;
+}
+
+.esquerda {
+    width: 50vw;
+    height: 600px;
+    background-size: cover;
+    
+    
+}
+
+.direita {
+    width: 50vw;
+    height: 600px;
+    text-align: center;
+    padding-top: 150px;
+
+    color: white;
+    
+    
+}
+
+div h1 {
+    font-size: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 0.2rem;
+}
+
+
+
+p {
+    padding-left: 10px;
+    padding-right: 200px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.botao {
+    padding-top: 30px;
+    padding-right: 110px;
+}
+
+input {
+    background: none;
+    border: 2px solid rgb(98, 33, 104);
+    border-radius: 17px;
+    padding: 7px 30px;
+    color: white;
+    background-size: cover;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+
