@@ -9,15 +9,19 @@ header {
     width: 100vw;
     height: 100px;
     display: flex;
+    align-items: center;
 }
 
 div.logo {
     width: 50vw;
+    padding-left: 100px;
     
-
 }
 
+
 div.menu {
+    padding-top: 50px;
+    padding-right: 100px;
     width: 50vw;
     height: 140px;
     align-items: center;
@@ -39,7 +43,6 @@ body {
     background-image: url(./img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 main {
@@ -47,6 +50,7 @@ main {
     height: 600px;
     display: flex;
 }
+
 
 div.esquerda img {
     padding-left: 160px;
@@ -65,23 +69,22 @@ div.esquerda img {
     height: 600px;
     text-align: center;
     padding-top: 150px;
-
     color: white;
-    
-    
 }
 
 div h1 {
-    font-size: 100px;
-    padding-right: 100px;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 90px;
+    padding-right: 160px;
     padding-bottom: 20px;
     letter-spacing: 0.2rem;
 }
 
 
-
-p {
-    padding-left: 10px;
+.texto {
+    letter-spacing: 0.1rem;
+    text-align: inherit;
+    padding-left: 20px;
     padding-right: 200px;
     font-size: 13px;
     padding-bottom: 20px;
@@ -89,7 +92,11 @@ p {
 
 .botao {
     padding-top: 30px;
-    padding-right: 110px;
+    padding-right: 170px;
+}
+
+div.botao input {
+    cursor: pointer;
 }
 
 input {
@@ -101,6 +108,58 @@ input {
     background-size: cover;
     font-size: 20px;
     margin-left: 10px;
+}
+
+div.forms {
+    padding: 250px;
+    padding-right: 180px;
+    padding-top: 200px;
+    color: white;
     
 }
+
+div.forms label {
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.botao2 {
+    opacity: 0.8;
+    margin-left: 95px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+
+}
+
+.botao2:hover {
+    background-color: rgb(98, 33, 104);
+    border: 2px solid white;
+}
+
+.botao2:hover {
+    opacity: 1;
+}
+
+div.botao input:hover {
+    background-color: rgb(98, 33, 104);
+    border: 2px solid white;
+    transition: .5s ease-in-out;
+    
+}
+
+div.forms input {
+    background-color: rgba(255, 228, 228, 0.158);
+}
+
+div.menu a:hover {
+    font-size: 25px;
+    transition: .3s ease-in;
+    text-shadow: 0 1px 1px #9600fa,
+                 0 -1px 4px #8c00ff;
+}
+
+
 
